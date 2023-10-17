@@ -1,0 +1,73 @@
+.general-container-list-user {
+    /* background-color: rgba(255, 0, 0, 0.432); */
+    display: grid;
+    width: 200vw;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 80% 20%;
+    grid-template-areas:  "menu6"
+                          "menu7";
+}
+
+.button-anchor {
+    width: 50%;
+}
+
+.menu6 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* background-color: gray; */
+    grid-area: menu6;
+    overflow: scroll;
+}
+
+.menu7 {
+    display: flex;
+    justify-content: center;
+    padding-left: 12vw;
+    align-items: center;
+    /* background-color: gray; */
+    grid-area: menu7;
+}
+
+.delete-user{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.round-button {
+    border-color: black;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.size-icon-delete {
+    width: 20px;
+}
+
+.size-icon-list-user {
+    width: max-content;
+    height: max-content;
+}
+.vertical{
+    margin: auto !important;
+    border-radius: 10px !important;
+}
+
+.image-user {
+    width:200px !important;
+    height:200px;
+    margin-top: 2vh !important;
+    margin: auto;
+    border-radius:100px !important;
+    border:5px solid rgb(253, 253, 253) !important;
+}
+.card-user{
+    width: 40vw !important;
+    height: 80% !important;
+    margin-top: 2vh !important;
+    background: linear-gradient(90deg, rgba(67,162,10,0.5) 2%, rgba(0,221,7,0.5) 7%, rgba(0,255,167,0.5) 34%) !important;
+}
